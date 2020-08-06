@@ -9,6 +9,6 @@
 
 &nbsp;  
 
-## join on my journey of making bags and things 
+## join me on my journey of making bags and things 
 
 
