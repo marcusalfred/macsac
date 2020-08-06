@@ -1,0 +1,36 @@
+{
+    "version": 2,
+    "alias": [
+      "macsac.co"
+    ],
+    "builds": [{
+        "src": "*.css",
+        "use": "@now/static"
+      },
+      {
+        "src": "images/*.png",
+        "use": "@now/static"
+      },
+      {
+        "src": "images/*.svg",
+        "use": "@now/static"
+      },
+      {
+        "src": "images/*.jpg",
+        "use": "@now/static"
+      },
+      {
+        "src": "**/*.md",
+        "use": "@now/md",
+        "config": {
+          "title": "macsacs",
+          "language": "en",
+          "meta": [{
+            "name": "description",
+            "content": "made by malfred"
+          }],
+          "css": "/style.css"
+        }
+      }
+    ]
+  }
